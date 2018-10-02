@@ -1,0 +1,32 @@
+.box{
+    height:50px;
+    width:50px;
+    background-color: green;
+    transition-property: width;
+    transition-duration:2s;
+}
+.box:hover{
+    width:150px;
+}
+
+.box2{
+    height:50px;
+    width:50px;
+    background-color: red;
+    transition-property: width, background-color;
+    transition-duration:1s;
+    transition-timing-function: ease-in-out;
+}
+.box2:hover{
+    width:150px;
+    background-color: blue;
+}
+.link a{
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: color;
+    font-size: 24px;
+}
+.link a:hover{
+    color:#000;
+}
